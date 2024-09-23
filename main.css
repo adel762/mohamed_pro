@@ -1,0 +1,177 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background:#f1fbff ;
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #6664D4;
+
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand i{
+    color: #6664D4;
+}
+.navbar-brand span{
+    color: #6664D4;
+}
+
+.navbar button{
+    height:30px;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    background-color:#6664D4 ;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: #6664D4 ;
+    border-width: 1px;
+}
+.navbar button:hover{
+    color: #6664D4;
+    background-color: white;
+    transition-duration: 400ms;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.503);
+    z-index: 1;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    margin-bottom: 220px;
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 70px;
+
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.w-100{
+    height: 100vh;
+}
+.services .card img{
+    width: 60px;
+    height: 60px;
+}
+.services .card h5{
+    font-weight: bold;
+    font-size:30px ;
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+.card .btu3 button{
+    padding: 0px 30px 0px 30px;
+    height: 50px;
+    color:#6664D4 ;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: #6664D4 ;
+    border-width: 1px;
+}
+.card .btu3 button:hover{
+    color: white;
+    background-color: #6664D4;
+    transition-duration: 400ms;
+
+}
+
+.services .card h5:hover{
+    color: #6664D4;
+    transition-duration: 400ms;
+}
+.services .card a{
+    text-decoration: none;
+    color: #000;
+}
+.services_team #doller{
+   width: 70px;
+   background-color: #6664D4;
+   border-radius: 30px 0px 30px 0px;
+}
+.services_team #doller i{
+    font-size: 30px;
+    color: white;
+}
+.services_team #iii{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services_team button{
+    padding: 0px 30px 0px 30px;
+    height: 50px;
+    color:#6664D4 ;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: #6664D4 ;
+    border-width: 1px;
+}
+.services_team button:hover{
+    color: white;
+    background-color: #6664D4;
+    transition-duration: 400ms;
+
+}
+.services_team h5:hover{
+    color: #6664D4;
+    transition-duration: 400ms;
+
+}
+#text2 button{
+    padding: 0px 30px 0px 30px;
+    height: 50px;
+    background-color:#6664D4 ;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: #6664D4 ;
+    border-width: 1px;
+}
+#text2 button:hover{
+    color: #6664D4;
+    background-color: white;
+    transition-duration: 400ms;
+
+}
+#text2 span{
+    color: #6664D4;
+}
+#icon_text{
+    font-size: 25px;
+    padding-right: 50px;
+ }
+ .list-unstyled a{
+    text-decoration: none;
+ }
+ .card .card-img-top:hover{
+    box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.666) ;
+    transition-duration: 400ms;
+
+  }
